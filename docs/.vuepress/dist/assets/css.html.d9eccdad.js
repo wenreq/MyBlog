@@ -1,0 +1,1 @@
+const e={key:"v-78b3c03d",path:"/interview/css.html",title:"CSS",lang:"zh-CN",frontmatter:{lang:"zh-CN",title:"CSS",description:"CSS"},excerpt:"",headers:[],git:{updatedTime:1645951587e3,contributors:[{name:"wenreq",email:"294491328@qq.com",commits:1}]},filePathRelative:"interview/css.md"};export{e as data};
