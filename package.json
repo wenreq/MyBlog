@@ -1,0 +1,15 @@
+{
+  "name": "wen",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "index.js",
+  "author": "wenreq <294491328@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.35"
+  }
+}

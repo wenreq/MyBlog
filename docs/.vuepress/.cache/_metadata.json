@@ -1,0 +1,36 @@
+{
+  "hash": "f6542e92",
+  "browserHash": "6cc15fdd",
+  "optimized": {
+    "vue": {
+      "file": "D:/wen/2022_learn/Wensc/docs/.vuepress/.cache/vue.js",
+      "src": "D:/wen/2022_learn/Wensc/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "file": "D:/wen/2022_learn/Wensc/docs/.vuepress/.cache/vue-router.js",
+      "src": "D:/wen/2022_learn/Wensc/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "needsInterop": false
+    },
+    "@vue/devtools-api": {
+      "file": "D:/wen/2022_learn/Wensc/docs/.vuepress/.cache/@vue_devtools-api.js",
+      "src": "D:/wen/2022_learn/Wensc/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "file": "D:/wen/2022_learn/Wensc/docs/.vuepress/.cache/@vueuse_core.js",
+      "src": "D:/wen/2022_learn/Wensc/node_modules/@vueuse/core/index.mjs",
+      "needsInterop": false
+    },
+    "nprogress": {
+      "file": "D:/wen/2022_learn/Wensc/docs/.vuepress/.cache/nprogress.js",
+      "src": "D:/wen/2022_learn/Wensc/node_modules/nprogress/nprogress.js",
+      "needsInterop": true
+    },
+    "@vuepress/shared": {
+      "file": "D:/wen/2022_learn/Wensc/docs/.vuepress/.cache/@vuepress_shared.js",
+      "src": "D:/wen/2022_learn/Wensc/node_modules/@vuepress/shared/lib/esm/index.js",
+      "needsInterop": false
+    }
+  }
+}
