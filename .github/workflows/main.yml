@@ -25,15 +25,16 @@ jobs:
             ${{ runner.os }}-yarn-
 
       # 安装依赖
-      - run: yarn
+      - run: yarn install
 
       # 打包构建
       - run: yarn build
 
       # 发布到 GitHub Pages
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v2
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         env:
-          PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 访问秘钥
-          PUBLISH_BRANCH: gh-pages # 推送分支
-          PUBLISH_DIR: .vuepress/dist # 部署目录
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 访问秘钥
+          BRANCH: gh-pages # 推送分支
+          FOLDER: docs/.vuepress/dist # 部署目录
+          BUILD_SCRIPT: npm install && npm run build && cd docs/.vuepress/dist && echo 'dbdgs.cn' > CNAME && cd -
