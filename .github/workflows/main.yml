@@ -32,9 +32,8 @@ jobs:
 
       # 发布到 GitHub Pages
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
         env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # 访问秘钥
-          BRANCH: gh-pages # 推送分支
-          FOLDER: docs/.vuepress/dist # 部署目录
-          BUILD_SCRIPT: npm install && npm run build && cd docs/.vuepress/dist && echo 'dbdgs.cn' > CNAME && cd -
+          token: ${{ secrets.ACCESS_TOKEN }} # 访问秘钥
+          branch: gh-pages # 推送分支
+          folder: docs/.vuepress/dist # 部署目录
