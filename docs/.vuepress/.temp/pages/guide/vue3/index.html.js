@@ -10,7 +10,16 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {},
+  "git": {
+    "updatedTime": 1645934244000,
+    "contributors": [
+      {
+        "name": "wenreq",
+        "email": "294491328@qq.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "guide/vue3/index.md"
 }
 

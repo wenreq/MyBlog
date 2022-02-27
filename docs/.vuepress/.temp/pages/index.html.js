@@ -5,11 +5,22 @@ export const data = {
   "lang": "zh-CN",
   "frontmatter": {
     "home": true,
-    "heroImage": "http://oss.tianmasport.com/gx/size/2022-02-25/196/946815346529009664.JPG",
-    "heroText": "Wen1994",
+    "heroImage": "http://oss.tianmasport.com/gx/size/2022-02-27/196/947467063817928704.jpg",
+    "heroText": "wenreq",
     "tagline": "敷衍人生，人生也会敷衍你。",
-    "actionText": "开始 →",
-    "actionLink": "/zh/guide/",
+    "actions": [
+      {
+        "text": "开始",
+        "link": "/hello",
+        "type": "primary"
+      },
+      {
+        "text": "GitHub",
+        "link": "https://github.com/wenreq",
+        "type": "secondary"
+      }
+    ],
+    "actionLink": null,
     "features": [
       {
         "title": "里程碑",
@@ -28,7 +39,16 @@ export const data = {
   },
   "excerpt": "",
   "headers": [],
-  "git": {},
+  "git": {
+    "updatedTime": 1645934244000,
+    "contributors": [
+      {
+        "name": "wenreq",
+        "email": "294491328@qq.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "README.md"
 }
 

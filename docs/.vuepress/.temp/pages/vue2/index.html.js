@@ -1,17 +1,20 @@
 export const data = {
   "key": "v-157886ea",
   "path": "/vue2/",
-  "title": "页面的标题",
+  "title": "Vue 2",
   "lang": "zh-CN",
   "frontmatter": {
     "lang": "zh-CN",
-    "title": "页面的标题",
-    "description": "页面的描述"
+    "title": "Vue 2",
+    "description": "Vue 2相关知识点"
   },
   "excerpt": "",
   "headers": [],
-  "git": {},
-  "filePathRelative": "vue2/README.md"
+  "git": {
+    "updatedTime": null,
+    "contributors": []
+  },
+  "filePathRelative": "vue2/index.md"
 }
 
 if (import.meta.webpackHot) {

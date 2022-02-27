@@ -1,10 +1,16 @@
 ---
 home: true
-heroImage: http://oss.tianmasport.com/gx/size/2022-02-25/196/946815346529009664.JPG
-heroText: Wen1994
+heroImage: http://oss.tianmasport.com/gx/size/2022-02-27/196/947467063817928704.jpg
+heroText: wenreq
 tagline: 敷衍人生，人生也会敷衍你。
-actionText: 开始 →
-actionLink: /zh/guide/
+actions:
+  - text: 开始
+    link: /hello
+    type: primary
+  - text: GitHub
+    link: https://github.com/wenreq
+    type: secondary
+actionLink: 
 features:
 - title: 里程碑
   details: 记录自己的程序员职业开发手册，将日常的开发记录在里程碑中。

@@ -8,7 +8,7 @@ export const siteData = {
       "link",
       {
         "rel": "icon",
-        "href": "http://oss.tianmasport.com/gx/size/2022-02-25/196/946815346529009664.JPG"
+        "href": "http://oss.tianmasport.com/gx/size/2022-02-27/196/947466858800349184.png"
       }
     ]
   ],

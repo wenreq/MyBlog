@@ -1,19 +1,32 @@
 export const data = {
   "key": "v-76c15d23",
   "path": "/milestone/2022.html",
-  "title": "里程碑2022",
+  "title": 2022,
   "lang": "zh-CN",
-  "frontmatter": {},
+  "frontmatter": {
+    "lang": "zh-CN",
+    "title": 2022,
+    "description": 2022
+  },
   "excerpt": "",
   "headers": [
     {
       "level": 2,
-      "title": "新的一年写给自己",
-      "slug": "新的一年写给自己",
+      "title": "写给自己的程序员职业开发手册",
+      "slug": "写给自己的程序员职业开发手册",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "2022-02-27",
+      "slug": "_2022-02-27",
       "children": []
     }
   ],
-  "git": {},
+  "git": {
+    "updatedTime": null,
+    "contributors": []
+  },
   "filePathRelative": "milestone/2022.md"
 }
 
