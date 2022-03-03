@@ -1,0 +1,1 @@
+const t={key:"v-142c0567",path:"/interview/html.html",title:"HTML",lang:"zh-CN",frontmatter:{lang:"zh-CN",title:"HTML",description:"HTML"},excerpt:"",headers:[],git:{updatedTime:1645951587e3,contributors:[{name:"wenreq",email:"294491328@qq.com",commits:1}]},filePathRelative:"interview/html.md"};export{t as data};

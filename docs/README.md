@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: http://oss.tianmasport.com/gx/size/2022-02-27/196/947467063817928704.jpg
+heroImage: http://124.222.234.238/utils/images/gitPicture.jpg
 heroText: wenreq
-tagline: 敷衍人生，人生也会敷衍你。
+tagline: 🔈 想要得到你从未拥有过的东西，你必须做些你从没做过的事情。
 actions:
   - text: 开始
     link: /hello

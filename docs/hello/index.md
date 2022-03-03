@@ -14,7 +14,7 @@ description: hello-desc
 - 😄 职位：前端开发工程师
 - 💬 加个微信：W15371491296
 - 📫 个人博客：[博客园](https://www.cnblogs.com/wenshaochang123/)
-- ⚡ 敷衍人生，人生也会敷衍你。
+- ⚡ 想要得到你从未拥有过的东西，你必须做些你从没做过的事情。
 
 ### 技术
 这些是我使用的一些技术和工具:
@@ -33,9 +33,9 @@ description: hello-desc
 现在前端开发系统，重在高效开发。使用`Vue-cli`、`Vite`等脚手架就能快速搭建出来前端整个项目的架构。开发中会经常用到一些常见且公用的函数，所以为了避免不同项目多次复制粘贴的麻烦，这里给你推荐一个封装好的工具库[realize-utils](https://github.com/wenreq/realize-utils)。也希望你可以来支持～也很需要你在 [Github](https://github.com/wenreq/realize-utils) 上一个小小的 Star :star:。
 
 ## 推荐给你
-[![realize-utils](http://oss.tianmasport.com/gx/size/2022-02-23/196/946000020912472064.png)](https://github.com/wenreq/realize-utils)
+[![realize-utils](http://124.222.234.238/utils/images/realize.png)](https://github.com/wenreq/realize-utils)
 
-[![npm version](https://img.shields.io/static/v1?label=npm&message=v1.1.4&color=blue)](https://www.npmjs.com/package/realize-utils) [![license](https://img.shields.io/static/v1?label=license&message=MIT&color=green)](https://www.npmjs.com/package/realize-utils)
+[![npm version](https://img.shields.io/static/v1?label=npm&message=v1.1.5&color=blue)](https://www.npmjs.com/package/realize-utils) [![license](https://img.shields.io/static/v1?label=license&message=MIT&color=green)](https://www.npmjs.com/package/realize-utils) [![coverage](https://img.shields.io/static/v1?label=coverage&message=80.71%&color=ff69b4)](https://github.com/wenreq/realize-utils/tree/master/test)
 
 前端业务代码工具库
 
@@ -85,6 +85,6 @@ console.log(uniqueArr); // [1, 3, 5, 2]
 
 ### 贡献者👋
 <div style="display: flex; align-items: center;">
-  <img style=" float: left;" height="60px" src="http://oss.tianmasport.com/gx/size/2022-02-27/196/947467063817928704.jpg">
+  <img style=" float: left;" height="60px" src="http://124.222.234.238/utils/images/gitPicture.jpg">
   <h4 style="display: inline-block;">wenreq</h4>
 </div>
