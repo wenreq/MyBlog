@@ -46,6 +46,9 @@ module.exports = {
         text: '编译原理(第二版)',
         link: 'http://124.222.234.238/utils/PDF/编译原理_0303.pdf'
       }, {
+        text: '编译原理及实践',
+        link: 'http://124.222.234.238/utils/PDF/编译原理及实践.pdf'
+      }, {
         text: '图解算法',
         link: 'http://124.222.234.238/utils/PDF/图解算法.pdf'
       }, {
@@ -54,6 +57,12 @@ module.exports = {
       }, {
         text: '前端程序员面试秘籍',
         link: 'http://124.222.234.238/utils/PDF/前端程序员面试秘籍.pdf'
+      }, {
+        text: '鸟哥的Linux私房菜基础学习篇.pdf',
+        link: 'http://124.222.234.238/utils/PDF/鸟哥的Linux私房菜基础学习篇.pdf'
+      }, {
+        text: '见识 吴军',
+        link: 'http://124.222.234.238/utils/PDF/见识 吴军.pdf'
       }],
     }, {
       link: "https://github.com/wenreq",

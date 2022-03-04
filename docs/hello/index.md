@@ -6,13 +6,12 @@ description: hello-desc
 
 # About
 ### 👋 Hi there,I'm WSC 
-温少昌，就职于江苏天马网络科技有限公司，投身开源，函数库[realize-utils](https://github.com/wenreq/realize-utils)作者(不知名的库，厚着脸皮写的哦😂)。坚持学习，精进技术。你可以在这里找到我：[github](https://github.com/wenreq)、[博客](http://124.222.234.238/blog/)
+温少昌，就职于江苏天马网络科技有限公司，投身开源，函数库[realize-utils](https://github.com/wenreq/realize-utils)作者(不知名的库，厚着脸皮写的哦😂)。坚持学习，精进技术。我的[github](https://github.com/wenreq)，欢迎前来围观。
 
 ![](https://visitor-badge.glitch.me/badge?page_id=wenreq.wenreq)
 
 - 😄 职位：前端开发工程师
 - 💬 加个微信：W15371491296
-- 📫 个人博客：[博客](http://124.222.234.238/blog/)
 - ⚡ 想要得到你从未拥有过的东西，你必须做些你从没做过的事情。
 
 ## 🌱 技术
