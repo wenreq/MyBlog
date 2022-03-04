@@ -1,7 +1,7 @@
 module.exports = {
   // 站点配置
   lang: 'zh-CN',
-  title: 'Wsc',
+  title: '温少昌的博客',
   description: '想要得到你从未拥有过的东西，你必须做些你从没做过的事情。',
   base: '/blog/',
 
@@ -14,26 +14,8 @@ module.exports = {
       link: "/",
       text: "首页"
     }, {
-      link: "https://github.com/wenreq",
-      text: "Github"
-    }, {
-      text: '相关链接',
+      text: '📚电子书籍',
       children: [{
-        text: 'Vue3',
-        link: 'https://v3.cn.vuejs.org/',
-      }, {
-        text: 'Vue3-new',
-        link: 'https://staging-cn.vuejs.org/',
-      }, {
-        text: 'Vite',
-        link: 'https://cn.vitejs.dev/',
-      }, {
-        text: 'Pinia',
-        link: 'https://pinia.vuejs.org/',
-      }, {
-        text: 'VuePress',
-        link: 'https://v2.vuepress.vuejs.org/zh/',
-      }, {
         text: 'JavaScript高级程序设计(第四版)',
         link: 'http://124.222.234.238/utils/PDF/JavaScript高级程序设计(第4版) .pdf',
       }, {
@@ -73,26 +55,39 @@ module.exports = {
         text: '前端程序员面试秘籍',
         link: 'http://124.222.234.238/utils/PDF/前端程序员面试秘籍.pdf'
       }],
+    }, {
+      link: "https://github.com/wenreq",
+      text: "Github"
     }],
     // 侧边栏 - 所有页面会使用相同的侧边栏
     sidebar: [
       '/hello',
       {
-        text: '里程碑',
+        text: '逼逼叨',
         collapsible: true,
-        children: [
-          '/milestone/2022',
-        ]
+        children: [{
+          text: '2022',
+          collapsible: true,
+          children: [
+            '/milestone/2022/03',
+            '/milestone/2022/04',
+          ]
+        }]
       },
-      '/vue3',
-      '/vue2',
-      '/typescript',
       {
-        text: 'JavaScript',
+        text: '技术精进',
         collapsible: true,
-        children: [
-          '/javaScript/base',
-          '/javaScript/dom'
+        children: [{
+            text: 'JavaScript',
+            collapsible: true,
+            children: [
+              '/javaScript/base',
+              '/javaScript/dom'
+            ]
+          },
+          '/typescript',
+          '/vue2',
+          '/vue3',
         ]
       },
       {
