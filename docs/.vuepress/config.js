@@ -12,8 +12,12 @@ module.exports = {
     // 导航栏
     navbar: [{
       link: "/",
-      text: "首页"
+      text: "主页"
     }, {
+      link: '/milestone/index.md',
+      text: '逼叨叨',
+      // children: ['/milestone/2022/03','/milestone/2022/04',]
+    },{
       text: '📚电子书籍',
       children: [{
         text: 'JavaScript高级程序设计(第四版)',
@@ -69,55 +73,54 @@ module.exports = {
       text: "Github"
     }],
     // 侧边栏 - 所有页面会使用相同的侧边栏
-    sidebar: [
-      '/hello',
-      {
-        text: '逼逼叨',
-        collapsible: true,
-        children: [{
+    // sidebar: [
+    //   '/hello',
+      
+    //   {
+    //     text: '技术精进',
+    //     collapsible: true,
+    //     children: [{
+    //         text: 'JavaScript',
+    //         collapsible: true,
+    //         children: [
+    //           '/javaScript/base',
+    //           '/javaScript/dom'
+    //         ]
+    //       },
+    //       '/typescript',
+    //       '/vue2',
+    //       '/vue3',
+    //     ]
+    //   },
+    //   {
+    //     text: '我的文章',
+    //     collapsible: true,
+    //     children: [
+    //       '/myArticle/githubPage',
+    //       '/myArticle/other'
+    //     ]
+    //   },
+    //   {
+    //     text: '面试题',
+    //     collapsible: true,
+    //     children: [
+    //       '/interview/html',
+    //       '/interview/css',
+    //       '/interview/javascript',
+    //       '/interview/vue'
+    //     ]
+    //   }
+    // ],
+
+    sidebar: {
+      '/milestone/': [
+        {
           text: '2022',
           collapsible: true,
-          children: [
-            '/milestone/2022/03',
-            '/milestone/2022/04',
-          ]
-        }]
-      },
-      {
-        text: '技术精进',
-        collapsible: true,
-        children: [{
-            text: 'JavaScript',
-            collapsible: true,
-            children: [
-              '/javaScript/base',
-              '/javaScript/dom'
-            ]
-          },
-          '/typescript',
-          '/vue2',
-          '/vue3',
-        ]
-      },
-      {
-        text: '我的文章',
-        collapsible: true,
-        children: [
-          '/myArticle/githubPage',
-          '/myArticle/other'
-        ]
-      },
-      {
-        text: '面试题',
-        collapsible: true,
-        children: [
-          '/interview/html',
-          '/interview/css',
-          '/interview/javascript',
-          '/interview/vue'
-        ]
-      }
-    ]
+          children: ['/milestone/2022/03.md', '/milestone/2022/04.md'],
+        }
+      ],
+    }
   },
 
   // 自定义的 favicon
