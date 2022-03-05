@@ -14,10 +14,18 @@ module.exports = {
       link: "/",
       text: "主页"
     }, {
-      link: '/milestone/index.md',
+      link: '/milestone/',
       text: '逼叨叨',
-      // children: ['/milestone/2022/03','/milestone/2022/04',]
-    },{
+    }, {
+      link: '/technology/',
+      text: '精进技术',
+    }, {
+      text: '面试',
+      link: '/interview/'
+    }, {
+      text: '我的文章',
+      link: '/myArticle/githubPage'
+    }, {
       text: '📚电子书籍',
       children: [{
         text: 'JavaScript高级程序设计(第四版)',
@@ -72,46 +80,8 @@ module.exports = {
       link: "https://github.com/wenreq",
       text: "Github"
     }],
-    // 侧边栏 - 所有页面会使用相同的侧边栏
-    // sidebar: [
-    //   '/hello',
-      
-    //   {
-    //     text: '技术精进',
-    //     collapsible: true,
-    //     children: [{
-    //         text: 'JavaScript',
-    //         collapsible: true,
-    //         children: [
-    //           '/javaScript/base',
-    //           '/javaScript/dom'
-    //         ]
-    //       },
-    //       '/typescript',
-    //       '/vue2',
-    //       '/vue3',
-    //     ]
-    //   },
-    //   {
-    //     text: '我的文章',
-    //     collapsible: true,
-    //     children: [
-    //       '/myArticle/githubPage',
-    //       '/myArticle/other'
-    //     ]
-    //   },
-    //   {
-    //     text: '面试题',
-    //     collapsible: true,
-    //     children: [
-    //       '/interview/html',
-    //       '/interview/css',
-    //       '/interview/javascript',
-    //       '/interview/vue'
-    //     ]
-    //   }
-    // ],
 
+    // 侧边栏
     sidebar: {
       '/milestone/': [
         {
@@ -120,6 +90,61 @@ module.exports = {
           children: ['/milestone/2022/03.md', '/milestone/2022/04.md'],
         }
       ],
+      '/technology/': [
+        {
+          text: 'JavaScript',
+          collapsible: true,
+          children: ['/technology/javaScript/base.md', '/technology/javaScript/dom.md'],
+        },
+        {
+          text: 'Typescript',
+          link: '/technology/typescript/'
+        },
+        {
+          text: 'Vue 2',
+          link: '/technology/vue2/'
+        },
+        {
+          text: 'Vue 3',
+          link: '/technology/vue3/'
+        }
+      ],
+      '/interview': [
+        {
+          text: '目录',
+          link: '/interview/'
+        },
+        {
+          text: 'HTML',
+          link: '/interview/html/'
+        },
+        {
+          text: 'CSS',
+          link: '/interview/css/'
+        },
+        {
+          text: 'JavaScript',
+          link: '/interview/javaScript/'
+        },
+        {
+          text: 'Vue',
+          link: '/interview/vue/'
+        },
+        {
+          text: 'Web',
+          link: '/interview/web/'
+        }
+      ],
+      '/myArticle': [
+        {
+          text: 'GithubPage',
+          link: '/myArticle/githubPage'
+        },
+        {
+          text: '其他',
+          link: '/myArticle/other'
+        }
+      ]
     }
   },
 

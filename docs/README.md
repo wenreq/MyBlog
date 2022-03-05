@@ -5,8 +5,11 @@ heroText:
 tagline: 🔈 想要得到你从未拥有过的东西，你必须做些你从没做过的事情。
 actions:
   - text: 开始 →
-    link: /hello
+    link: /milestone/
     type: primary
+  - text: About
+    link: /hello/
+    type: secondary
 actionLink: 
 features:
 - title: 逼逼叨
