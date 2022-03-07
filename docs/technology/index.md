@@ -11,7 +11,7 @@ description: 精进技术
 - Vue 3
 - Css
 - Node
-- Webpack
+- 前端工程化
 - HTTP
 - TCP/IP
 

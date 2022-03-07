@@ -2,7 +2,7 @@ module.exports = {
   // 站点配置
   lang: 'zh-CN',
   title: '温少昌的博客',
-  description: '想要得到你从未拥有过的东西，你必须做些你从没做过的事情。',
+  description: '想要得到你从未拥有过的东西,你必须做些你从没做过的事情。',
   base: '/blog/',
 
   // 主题和它的配置
@@ -83,15 +83,12 @@ module.exports = {
 
     // 侧边栏
     sidebar: {
-      '/milestone/': [
-        {
-          text: '2022',
-          collapsible: true,
-          children: ['/milestone/2022/03.md', '/milestone/2022/04.md'],
-        }
-      ],
-      '/technology/': [
-        {
+      '/milestone/': [{
+        text: '2022',
+        collapsible: true,
+        children: ['/milestone/2022/03.md', '/milestone/2022/04.md'],
+      }],
+      '/technology/': [{
           text: 'JavaScript',
           collapsible: true,
           children: ['/technology/javaScript/base.md', '/technology/javaScript/dom.md'],
@@ -107,10 +104,62 @@ module.exports = {
         {
           text: 'Vue 3',
           link: '/technology/vue3/'
+        },
+        {
+          text: '前端工程化',
+          collapsible: true,
+          children: [{
+            text: '打包篇',
+            collapsible: true,
+            children: [{
+              text: '第一章: Bundle 基础设施建设',
+              collapsible: true,
+              children: [
+                '/technology/engineering/build/01.md',
+                '/technology/engineering/build/02.md',
+                '/technology/engineering/build/03.md',
+                '/technology/engineering/build/04.md',
+                '/technology/engineering/build/05.md',
+                '/technology/engineering/build/06.md',
+                '/technology/engineering/build/07.md',
+                '/technology/engineering/build/08.md',
+                '/technology/engineering/build/09.md'
+              ]
+            }, {
+              text: '第二章: 打包体积优化',
+              collapsible: true,
+              children: [
+                '/technology/engineering/build/10.md',
+                '/technology/engineering/build/11.md',
+                '/technology/engineering/build/12.md',
+                '/technology/engineering/build/13.md',
+                '/technology/engineering/build/14.md'
+              ]
+            }, {
+              text: '第三章: Bundless 基础设施建设',
+              collapsible: true,
+              children: [
+                '/technology/engineering/build/15.md',
+                '/technology/engineering/build/16.md',
+                '/technology/engineering/build/17.md'
+              ]
+            }],
+          }, {
+            text: '开发篇',
+            collapsible: true,
+            children: [{
+              text: '第四章: npm package 开发',
+              collapsible: true,
+              children: []
+            }, {
+              text: '第五章: 包管理工具',
+              collapsible: true,
+              children: []
+            }],
+          }],
         }
       ],
-      '/interview': [
-        {
+      '/interview': [{
           text: '目录',
           link: '/interview/'
         },
@@ -135,8 +184,7 @@ module.exports = {
           link: '/interview/web/'
         }
       ],
-      '/myArticle': [
-        {
+      '/myArticle': [{
           text: 'GithubPage',
           link: '/myArticle/githubPage'
         },
