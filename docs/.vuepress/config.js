@@ -6,7 +6,7 @@ module.exports = {
   base: '/blog/',
 
   // 主题和它的配置
-  theme: '@vuepress/theme-default',
+  // theme: '@vuepress/theme-default',
   themeConfig: {
     logo: 'http://124.222.234.238/utils/images/gitPicture.jpg',
     // 导航栏
