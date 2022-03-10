@@ -23,7 +23,7 @@ jobs:
       - name: copy dist file with scp
         uses: appleboy/scp-action@v0.0.1
         with:
-          host: 124.222.234.238
+          host: '124.222.234.238'
           username: ${{ secrets.REMOTE_USERNAME }}
           passworld: ${{ secrets.REMOTE_PASSWORLD }}
           port: 22
