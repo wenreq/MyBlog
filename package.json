@@ -1,7 +1,7 @@
 {
   "name": "wen-blog",
   "version": "1.0.0",
-  "description": "个人博客",
+  "description": "wen博客",
   "main": "index.js",
   "author": "wenreq <294491328@qq.com>",
   "license": "MIT",
