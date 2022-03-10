@@ -25,7 +25,7 @@ jobs:
         with:
           host: ${{ secrets.REMOTE_HOST }}
           username: ${{ secrets.REMOTE_USERNAME }}
-          passworld: ${{ secrets.REMOTE_PASSWORLD }}
+          password: ${{ secrets.REMOTE_PASSWORLD }}
           port: 22
           source: "docs/"
           target: ${{ secrets.REMOTE_TARGET }}
