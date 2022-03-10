@@ -15,7 +15,7 @@ jobs:
       - name: install node.js
         uses: actions/setup-node@v3.0.0
         with:
-           node-version: "14.x"
+          node-version: "14.x"
       - name: install deps
         run: yarn install
       - name: build app
