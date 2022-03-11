@@ -150,11 +150,48 @@ module.exports = {
             children: [{
               text: '第四章: npm package 开发',
               collapsible: true,
-              children: []
+              children: [
+                '/technology/engineering/develop/18.md',
+                '/technology/engineering/develop/19.md',
+                '/technology/engineering/develop/20.md',
+                '/technology/engineering/develop/21.md',
+                '/technology/engineering/develop/22.md',
+                '/technology/engineering/develop/23.md',
+                '/technology/engineering/develop/24.md',
+                '/technology/engineering/develop/25.md',
+              ]
             }, {
               text: '第五章: 包管理工具',
               collapsible: true,
-              children: []
+              children: [
+                '/technology/engineering/develop/26.md',
+                '/technology/engineering/develop/27.md',
+                '/technology/engineering/develop/28.md',
+              ]
+            }],
+          }, {
+            text: '运维篇',
+            collapsible: true,
+            children: [{
+              text: '第六章: 前端质量保障',
+              collapsible: true,
+              children: [
+                '/technology/engineering/operation/29.md',
+                '/technology/engineering/operation/30.md',
+                '/technology/engineering/operation/31.md',
+                '/technology/engineering/operation/32.md',
+                '/technology/engineering/operation/33.md',
+                '/technology/engineering/operation/34.md',
+              ]
+            }, {
+              text: '第七章: 包管理工具',
+              collapsible: true,
+              children: [
+                '/technology/engineering/operation/35.md',
+                '/technology/engineering/operation/36.md',
+                '/technology/engineering/operation/37.md',
+                '/technology/engineering/operation/38.md',
+              ]
             }],
           }],
         }
