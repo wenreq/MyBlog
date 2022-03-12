@@ -45,15 +45,26 @@ description: 精进技术
 
 ### 专题三：Bundless 基础设施建设
 
-15. 原理与浏览器中的 ESM
-16. CommonJS To ESM
-17. Bundless 与生产环境
+15. [原理与浏览器中的 ESM](./engineering/build/15.md)
+16. [CommonJS To ESM](./engineering/build/16.md)
+17. [Bundless 与生产环境](./engineering/build/17.md)
 
 ### 专题四：npm package 开发
 
+18. [semver 与版本管理](./engineering/develop/18.md)
+19. [main/module/export 入口](./engineering//develop/19.md)
+20. [dep/devDep 的区别](./engineering/develop/20.md)
+21. [engines 宿主环境控制](./engineering/develop/21.md)
+22. [script hooks 及其风险](./engineering/develop/22.md)
+23. [npm publish 发布第一个包](./engineering/develop/23.md)
+24. [lockfile 以及影响](./engineering/develop/24.md)
+25. [package 中的lockfile](./engineering/develop/25.md)
 
 ### 专题五：包管理工具
 
+26. [npm cache](./engineering/develop/26.md)
+27. [node_modules 拓扑结构](./engineering/develop/27.md)
+28. [pnpm 的优势](./engineering/develop/28.md)
 
 ### 专题六：前端质量保障
 
