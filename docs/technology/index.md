@@ -67,7 +67,7 @@ description: 精进技术
 28. [pnpm 的优势](./engineering/develop/28.md)
 
 ### 专题六：前端质量保障
-29. [pnpm 的优势](./engineering/operation/29.md)
+29. [CICD](./engineering/operation/29.md)
 30. [Git Hooks](./engineering/operation/30.md)
 31. [Audit](./engineering/operation/31.md)
 32. [Upgrade](./engineering/operation/32.md)
