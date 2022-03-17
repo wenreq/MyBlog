@@ -91,7 +91,21 @@ module.exports = {
       '/technology/': [{
           text: 'JavaScript',
           collapsible: true,
-          children: ['/technology/javaScript/base.md', '/technology/javaScript/dom.md'],
+          children: [{
+              text: "JS高级程序设计第四版",
+              collapsible: true,
+              children: [
+                '/technology/javaScript/programming/01.md',
+              ]
+            },
+            {
+              text: "你不知道的JS-上",
+              collapsible: true,
+              children: [
+                '/technology/javaScript/unaware/01.md',
+              ]
+            }
+          ],
         },
         {
           text: 'Typescript',
