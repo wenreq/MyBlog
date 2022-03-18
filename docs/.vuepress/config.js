@@ -95,7 +95,14 @@ module.exports = {
               text: "JS高级程序设计第四版",
               collapsible: true,
               children: [
+                '/technology/javaScript/programming/introduction.md',
                 '/technology/javaScript/programming/01.md',
+                '/technology/javaScript/programming/02.md',
+                '/technology/javaScript/programming/03.md',
+                '/technology/javaScript/programming/04.md',
+                '/technology/javaScript/programming/05.md',
+                '/technology/javaScript/programming/06.md',
+                '/technology/javaScript/programming/07.md',
               ]
             },
             {

@@ -8,6 +8,19 @@ description: 精进技术
 
 ## JavaScript
 
+### JavaScript 高级程序设计第四版
+
+1. [语言基础](./javaScript/programming/01.md)
+2. [变量、作用域、内存](./javaScript/programming/02.md)
+3. [基本引用类型](./javaScript/programming/03.md)
+4. [集合引用类型](./javaScript/programming/04.md)
+5. [迭代器与生成器](./javaScript/programming/05.md)
+6. [对象、类与面向对象编程](./javaScript/programming/06.md)
+7. [代理与反射](./javaScript/programming/07.md)
+
+### 你不知道的 JavaScript
+
+1. [作用域是什么](./javaScript/unaware/01.md)
 
 ## Vue 2
 
