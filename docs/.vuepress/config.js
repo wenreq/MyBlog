@@ -24,7 +24,7 @@ module.exports = {
       link: '/interview/'
     }, {
       text: '我的文章',
-      link: '/myArticle/githubPage'
+      link: '/myArticle/markdown'
     }, {
       text: '📚电子书籍',
       children: [{
@@ -243,8 +243,11 @@ module.exports = {
         }
       ],
       '/myArticle': [{
-          text: 'GithubPage',
-          link: '/myArticle/githubPage'
+          text: 'MarkDown语法',
+          link: '/myArticle/markdown'
+        }, {
+          text: 'git操作',
+          link: '/myArticle/git'
         },
         {
           text: '其他',
