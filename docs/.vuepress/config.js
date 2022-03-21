@@ -103,6 +103,7 @@ module.exports = {
                 '/technology/javaScript/programming/05.md',
                 '/technology/javaScript/programming/06.md',
                 '/technology/javaScript/programming/07.md',
+                '/technology/javaScript/programming/08.md',
               ]
             },
             {

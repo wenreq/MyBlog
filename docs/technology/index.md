@@ -17,6 +17,7 @@ description: 精进技术
 5. [迭代器与生成器](./javaScript/programming/05.md)
 6. [对象、类与面向对象编程](./javaScript/programming/06.md)
 7. [代理与反射](./javaScript/programming/07.md)
+8. [函数](./javaScript/programming/08.md)
 
 ### 你不知道的 JavaScript
 
