@@ -18,6 +18,9 @@ description: 精进技术
 6. [对象、类与面向对象编程](./javaScript/programming/06.md)
 7. [代理与反射](./javaScript/programming/07.md)
 8. [函数](./javaScript/programming/08.md)
+9. [期约与异步函数](./javaScript/programming/09.md)
+10. [BOM](./javaScript/programming/10.md)
+11. [客户端检测能力](./javaScript/programming/11.md)
 
 ### 你不知道的 JavaScript
 
