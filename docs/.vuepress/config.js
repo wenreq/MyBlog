@@ -107,13 +107,39 @@ module.exports = {
                 '/technology/javaScript/programming/09.md',
                 '/technology/javaScript/programming/10.md',
                 '/technology/javaScript/programming/11.md',
+                '/technology/javaScript/programming/12.md',
               ]
             },
             {
               text: "你不知道的JS-上",
               collapsible: true,
-              children: [
-                '/technology/javaScript/unaware/01.md',
+              children: [{
+                  text: "第一部分 作用域和闭包",
+                  collapsible: true,
+                  children: [
+                    '/technology/javaScript/unaware/01.md',
+                    '/technology/javaScript/unaware/02.md',
+                    '/technology/javaScript/unaware/03.md',
+                    '/technology/javaScript/unaware/04.md',
+                    '/technology/javaScript/unaware/05.md',
+                    '/technology/javaScript/unaware/1a.md',
+                    '/technology/javaScript/unaware/1b.md',
+                    '/technology/javaScript/unaware/1c.md',
+                  ]
+                },
+                {
+                  text: "第二部分 this和对象原型",
+                  collapsible: true,
+                  children: [
+                    '/technology/javaScript/unaware/06.md',
+                    '/technology/javaScript/unaware/07.md',
+                    '/technology/javaScript/unaware/08.md',
+                    '/technology/javaScript/unaware/09.md',
+                    '/technology/javaScript/unaware/10.md',
+                    '/technology/javaScript/unaware/11.md',
+                    '/technology/javaScript/unaware/2a.md',
+                  ]
+                }
               ]
             }
           ],

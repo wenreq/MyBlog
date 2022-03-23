@@ -4,8 +4,6 @@ title: 精进技术
 description: 精进技术
 ---
 
-# 自己想更加精进的技术
-
 ## JavaScript
 
 ### JavaScript 高级程序设计第四版
@@ -21,10 +19,30 @@ description: 精进技术
 9. [期约与异步函数](./javaScript/programming/09.md)
 10. [BOM](./javaScript/programming/10.md)
 11. [客户端检测能力](./javaScript/programming/11.md)
+12. [DOM - MutationObserver](./javaScript/programming/12.md)
 
 ### 你不知道的 JavaScript
 
+#### 作用域和闭包
+
 1. [作用域是什么](./javaScript/unaware/01.md)
+2. [词法作用域](./javaScript/unaware/02.md)
+3. [函数作用域和块作用域](./javaScript/unaware/03.md)
+4. [提升](./javaScript/unaware/04.md)
+5. [作用域闭包](./javaScript/unaware/05.md)
+6. [附A: 动态作用域](./javaScript/unaware/1a.md)
+7. [附B: 块作用域的方案](./javaScript/unaware/1b.md)
+8. [附C: this词法](./javaScript/unaware/1c.md)
+
+#### this和对象原型
+
+1. [关于this](./javaScript/unaware/06.md)
+2. [this全面解析](./javaScript/unaware/07.md)
+3. [对象](./javaScript/unaware/08.md)
+4. [混合对象-类](./javaScript/unaware/09.md)
+5. [原型](./javaScript/unaware/10.md)
+6. [行为委托](./javaScript/unaware/11.md)
+7. [附A: ES中的Class](./javaScript/unaware/2a.md)
 
 ## Vue 2
 

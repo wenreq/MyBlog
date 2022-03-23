@@ -4,7 +4,7 @@ heroImage: http://124.222.234.238/utils/images/gitPicture.jpg
 heroText: 
 tagline: 🔈 想要得到你从未拥有过的东西，你必须做些你从没做过的事情。
 actions:
-  - text: 开始 →
+  - text: 开始
     link: /technology/
     type: primary
   - text: About
