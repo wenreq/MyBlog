@@ -281,6 +281,10 @@ module.exports = {
           link: '/myArticle/git'
         },
         {
+          text: 'Web Worker',
+          link: '/myArticle/webworker'
+        },
+        {
           text: '其他',
           link: '/myArticle/other'
         }
