@@ -20,6 +20,7 @@ description: 精进技术
 10. [BOM](./javaScript/programming/10.md)
 11. [客户端检测能力](./javaScript/programming/11.md)
 12. [DOM - MutationObserver](./javaScript/programming/12.md)
+13. [网络请求与远程资源](./javaScript/programming/13.md)
 
 ### 你不知道的 JavaScript
 
