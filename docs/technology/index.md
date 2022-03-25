@@ -22,7 +22,7 @@ description: 精进技术
 12. [DOM - MutationObserver](./javaScript/programming/12.md)
 13. [网络请求与远程资源](./javaScript/programming/13.md)
 
-### 你不知道的 JavaScript
+### 你不知道的 JavaScript 上
 
 #### 作用域和闭包
 
