@@ -6,7 +6,7 @@ module.exports = {
   base: '/blog/',
 
   // 主题和它的配置
-  // theme: '@vuepress/theme-default',
+  theme: '@vuepress/theme-default',
   themeConfig: {
     logo: 'http://124.222.234.238/utils/images/gitPicture.jpg',
     // 导航栏
@@ -188,7 +188,7 @@ module.exports = {
                 '/technology/engineering/build/14.md'
               ]
             }, {
-              text: '第三章: Bundless 基础设施建设',
+              text: '第三章: BundLess 基础设施建设',
               collapsible: true,
               children: [
                 '/technology/engineering/build/15.md',
