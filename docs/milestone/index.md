@@ -10,4 +10,27 @@ description: 2022-02-27
 
 - 总结阶段性工作内容和所做的事。
 
-- 日常碰到的问题和解决的思路，并附上链接。
+学习计划：
+
+### 2022
+
+- JavaScript
+- Css
+- HTTP
+- TCP/IP
+- Vue2 官方文档 + 源码
+- Vue3 demo + mini-vue
+- 编译原理
+- 开源：realize-utils函数库、VScode主题插件。
+
+### 2023
+
+- JavaScript 设计模式
+- 图解算法
+- React 官网 + demo
+- TS
+- React 小书
+- Node.js + (Express/Next)
+- MongoDB
+- 开源：未定。
+- 面试模块的整理
