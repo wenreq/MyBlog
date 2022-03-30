@@ -2,7 +2,7 @@
 home: true
 heroImage: http://124.222.234.238/utils/images/gitPicture.jpg
 heroText: 
-tagline: 做些你从未做过的事情。
+tagline: Don't pretend to do sth.
 actions:
   - text: 开始
     link: /technology/
