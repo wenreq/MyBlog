@@ -277,8 +277,9 @@ module.exports = {
           text: 'MarkDown语法',
           link: '/myArticle/markdown'
         }, {
-          text: 'git操作',
-          link: '/myArticle/git'
+          text: 'Git',
+          collapsible: true,
+          children: ['/myArticle/git/operate.md', '/myArticle/git/normalize.md', '/myArticle/git/github.md'],
         },
         {
           text: 'Web Worker',
