@@ -21,7 +21,7 @@ description: 2022-02-27
 - Vue2 官方文档 + 源码
 - Vue3 demo + mini-vue
 - 编译原理
-- 开源：realize-utils函数库、VScode主题插件。
+- 开源：[realize-utils](https://www.npmjs.com/package/realize-utils)函数库、VScode主题插件。
 
 ### 2023
 
