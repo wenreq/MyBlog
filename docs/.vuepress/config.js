@@ -142,6 +142,13 @@ module.exports = {
                   ]
                 }
               ]
+            },
+            {
+              text: "ECMAScript 6 入门",
+              collapsible: true,
+              children: [
+                '/technology/javaScript/es6/introduction.md',
+              ]
             }
           ],
         },
