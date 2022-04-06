@@ -148,6 +148,7 @@ module.exports = {
               collapsible: true,
               children: [
                 '/technology/javaScript/es6/introduction.md',
+                '/technology/javaScript/es6/01.md',
               ]
             }
           ],
