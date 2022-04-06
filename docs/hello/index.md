@@ -6,7 +6,7 @@ description: hello-desc
 
 ## Hi 我是温少昌
 
-目前就职于江苏天马网络科技有限公司，函数库[realize-utils](https://github.com/wenreq/realize-utils)作者(不知名的库，厚着脸皮写的哦😂)。坚持学习，精进技术，投身开源。你可以在这里找到我：[github](https://github.com/wenreq)、[个人博客](http://124.222.234.238/blog/)
+目前就职于江苏天马网络科技有限公司，函数库[realize-utils](https://github.com/wenreq/realize-utils)作者(不知名的库，厚着脸皮写的哦😂)。坚持学习，精进技术，投身开源。你可以在这里找到我：[github](https://github.com/wenreq)、[个人博客](http://www.wenreq.site/blog/)
 
 ![](https://visitor-badge.glitch.me/badge?page_id=wenreq.wenreq)
 
@@ -27,7 +27,7 @@ description: hello-desc
 
 ## :beginner: 推荐给你
 
-[![realize-utils](http://124.222.234.238/utils/images/realize.png)](https://github.com/wenreq/realize-utils)
+[![realize-utils](http://www.wenreq.site/utils/images/realize.png)](https://github.com/wenreq/realize-utils)
 
 [![npm version](https://img.shields.io/static/v1?label=npm&message=v1.1.5&color=blue)](https://www.npmjs.com/package/realize-utils) [![license](https://img.shields.io/static/v1?label=license&message=MIT&color=green)](https://www.npmjs.com/package/realize-utils) [![coverage](https://img.shields.io/static/v1?label=coverage&message=80.71%&color=ff69b4)](https://github.com/wenreq/realize-utils/tree/master/test)
 
@@ -82,6 +82,6 @@ console.log(uniqueArr); // [1, 3, 5, 2]
 ### :two_men_holding_hands: 贡献者
 
 <div style="display: flex; align-items: center;">
-  <img style=" float: left;" height="60px" src="http://124.222.234.238/utils/images/gitPicture.jpg">
+  <img style=" float: left;" height="60px" src="http://www.wenreq.site/utils/images/gitPicture.jpg">
   <h4 style="display: inline-block;"> wenreq</h4>
 </div>

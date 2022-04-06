@@ -8,7 +8,7 @@ module.exports = {
   // 主题和它的配置
   theme: '@vuepress/theme-default',
   themeConfig: {
-    logo: 'http://124.222.234.238/utils/images/gitPicture.jpg',
+    logo: 'http://www.wenreq.site/utils/images/gitPicture.jpg',
     // 导航栏
     navbar: [{
       link: "/",
@@ -29,52 +29,52 @@ module.exports = {
       text: '📚电子书籍',
       children: [{
         text: 'JavaScript高级程序设计(第四版)',
-        link: 'http://124.222.234.238/utils/PDF/JavaScript高级程序设计(第4版) .pdf',
+        link: 'http://www.wenreq.site/utils/PDF/JavaScript高级程序设计(第4版) .pdf',
       }, {
         text: '你不知道的JavaScript上',
-        link: 'http://124.222.234.238/utils/PDF/你不知道的JavaScript_上.pdf',
+        link: 'http://www.wenreq.site/utils/PDF/你不知道的JavaScript_上.pdf',
       }, {
         text: '你不知道的JavaScript中',
-        link: 'http://124.222.234.238/utils/PDF/你不知道的JavaScript_中.pdf',
+        link: 'http://www.wenreq.site/utils/PDF/你不知道的JavaScript_中.pdf',
       }, {
         text: '你不知道的JavaScript下',
-        link: 'http://124.222.234.238/utils/PDF/你不知道的JavaScript_下.pdf',
+        link: 'http://www.wenreq.site/utils/PDF/你不知道的JavaScript_下.pdf',
       }, {
         text: 'JavaScript语言精粹',
-        link: 'http://124.222.234.238/utils/PDF/JavaScript语言精粹.pdf',
+        link: 'http://www.wenreq.site/utils/PDF/JavaScript语言精粹.pdf',
       }, {
         text: 'JavaScript设计模式与开发实践',
-        link: 'http://124.222.234.238/utils/PDF/JavaScript设计模式与开发实践.pdf',
+        link: 'http://www.wenreq.site/utils/PDF/JavaScript设计模式与开发实践.pdf',
       }, {
         text: 'Css世界',
-        link: 'http://124.222.234.238/utils/PDF/css世界.pdf'
+        link: 'http://www.wenreq.site/utils/PDF/css世界.pdf'
       }, {
         text: '图解HTTP',
-        link: 'http://124.222.234.238/utils/PDF/图解HTTP.pdf'
+        link: 'http://www.wenreq.site/utils/PDF/图解HTTP.pdf'
       }, {
         text: 'TCP/IP详解卷1：协议',
-        link: 'http://124.222.234.238/utils/PDF/TCP-IP详解卷1：协议.pdf'
+        link: 'http://www.wenreq.site/utils/PDF/TCP-IP详解卷1：协议.pdf'
       }, {
         text: '编译原理(第二版)',
-        link: 'http://124.222.234.238/utils/PDF/编译原理_0303.pdf'
+        link: 'http://www.wenreq.site/utils/PDF/编译原理_0303.pdf'
       }, {
         text: '编译原理及实践',
-        link: 'http://124.222.234.238/utils/PDF/编译原理及实践.pdf'
+        link: 'http://www.wenreq.site/utils/PDF/编译原理及实践.pdf'
       }, {
         text: '图解算法',
-        link: 'http://124.222.234.238/utils/PDF/图解算法.pdf'
+        link: 'http://www.wenreq.site/utils/PDF/图解算法.pdf'
       }, {
         text: '深入浅出Node.js',
-        link: 'http://124.222.234.238/utils/PDF/深入浅出Node.js.pdf'
+        link: 'http://www.wenreq.site/utils/PDF/深入浅出Node.js.pdf'
       }, {
         text: '前端程序员面试秘籍',
-        link: 'http://124.222.234.238/utils/PDF/前端程序员面试秘籍.pdf'
+        link: 'http://www.wenreq.site/utils/PDF/前端程序员面试秘籍.pdf'
       }, {
         text: '鸟哥的Linux私房菜基础学习篇.pdf',
-        link: 'http://124.222.234.238/utils/PDF/鸟哥的Linux私房菜基础学习篇.pdf'
+        link: 'http://www.wenreq.site/utils/PDF/鸟哥的Linux私房菜基础学习篇.pdf'
       }, {
         text: '见识 吴军',
-        link: 'http://124.222.234.238/utils/PDF/见识 吴军.pdf'
+        link: 'http://www.wenreq.site/utils/PDF/见识 吴军.pdf'
       }],
     }, {
       link: "https://github.com/wenreq",
@@ -304,7 +304,7 @@ module.exports = {
   head: [
     ['link', {
       rel: 'icon',
-      href: 'http://124.222.234.238/utils/images/webPicture.png'
+      href: 'http://www.wenreq.site/utils/images/webPicture.png'
     }]
   ],
 
