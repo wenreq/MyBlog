@@ -45,6 +45,12 @@ description: 精进技术
 6. [行为委托](./javaScript/unaware/11.md)
 7. [附A: ES中的Class](./javaScript/unaware/2a.md)
 
+### ECMAScript 6 入门
+
+1. [ECMAScript 6 简介](./javaScript/es6/introduction.md)
+2. [let 和 const 命令](./javaScript/es6/01.md)
+3. [变量的解构赋值](./javaScript/es6/02.md)
+
 ## Vue 2
 
 

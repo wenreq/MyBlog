@@ -4,17 +4,17 @@ title: 1. ECMAScript 6 简介
 description: ECMAScript 6 简介
 ---
 
-## 1. ECMAScript 和 JavaScript 的关系
+## 1.1 ECMAScript 和 JavaScript 的关系
 
 ECMAScript 和 JavaScript 的关系是，前者是后者的规格，后者是前者的一种实现。
 
-## 2. ES6 和 ECMAScript 2015 的关系
+## 1.2 ES6 和 ECMAScript 2015 的关系
 
 标准委员会最终决定，标准在每年的 6 月份正式发布一次，作为当年的正式版本。
 
 本书中提到 ES6 的地方，一般是指 ES2015 标准，但有时也是泛指 “下一代 JavaScript 语言”。
 
-## 3. 语法提案的批准流程
+## 1.3 语法提案的批准流程
 
 任何人都可以向标准委员会（又称 TC39 委员会）提案，要求修改语言标准。
 
@@ -28,7 +28,7 @@ ECMAScript 和 JavaScript 的关系是，前者是后者的规格，后者是前
 
 一个提案只要能进入 Stage 2，就差不多肯定会包括在以后的正式标准里面。ECMAScript 当前的所有提案，可以在 TC39 的[官方网站](https://github.com/tc39/ecma262)查看。
 
-## 4. ECMAScript 的历史
+## 1.4 ECMAScript 的历史
 
 ES6 从开始制定到最后发布，整整用了 15 年。
 
@@ -46,7 +46,7 @@ $ node --v8-options | grep harmony
 $ node --v8-options | findstr harmony
 ```
 
-## 5. Babel 转码器
+## 1.5 Babel 转码器
 
 [Babel](https://babeljs.io/) 是一个广泛使用的 ES6 转码器，可以将 ES6 代码转为 ES5 代码，从而在老版本的浏览器执行，这个意味着，你可以用 ES6 的方式写程序，又不用担心先有环境是否支持。下面是一个例子。
 

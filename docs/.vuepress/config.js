@@ -150,6 +150,7 @@ module.exports = {
                 '/technology/javaScript/es6/introduction.md',
                 '/technology/javaScript/es6/01.md',
                 '/technology/javaScript/es6/02.md',
+                '/technology/javaScript/es6/03.md',
               ]
             }
           ],
