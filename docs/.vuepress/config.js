@@ -2,7 +2,7 @@ module.exports = {
   // 站点配置
   lang: 'zh-CN',
   title: '温少昌的博客',
-  description: '想要得到你从未拥有过的东西,你必须做些你从没做过的事情。',
+  description: "Don't pretend to do sth.",
   base: '/blog/',
 
   // 主题和它的配置
