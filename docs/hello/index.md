@@ -10,7 +10,7 @@ description: hello-desc
 
 ![](https://visitor-badge.glitch.me/badge?page_id=wenreq.wenreq)
 
-💬 想要得到你从未拥有过的东西，你必须做些你从没做过的事情。
+💬 Don't pretend to do sth.
 
 ## 擅长
 
