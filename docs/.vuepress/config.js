@@ -14,17 +14,21 @@ module.exports = {
       link: "/",
       text: "主页"
     }, {
-      link: '/milestone/',
-      text: '逼叨叨',
+      link: '/standardDoc/',
+      text: '前端规范'
+
     }, {
       link: '/technology/',
       text: '精进技术',
     }, {
-      text: '面试',
-      link: '/interview/'
-    }, {
       text: '我的文章',
       link: '/myArticle/markdown'
+    }, {
+      text: '面试专栏',
+      link: '/interview/'
+    }, {
+      link: '/milestone/',
+      text: '逼叨叨',
     }, {
       text: '📚电子书籍',
       children: [{
@@ -259,6 +263,65 @@ module.exports = {
             }],
           }],
         }
+      ],
+      '/standardDoc/': [{
+          text: '1. 工作流规范',
+          collapsible: true,
+          children: [
+            '/standardDoc/workflow/01.md',
+            '/standardDoc/workflow/02.md',
+            '/standardDoc/workflow/03.md'
+          ]
+        },
+        {
+          text: '2. 技术规范',
+          collapsible: true,
+          children: [
+            '/standardDoc/technologyStack/01.md',
+            '/standardDoc/technologyStack/02.md',
+            '/standardDoc/technologyStack/03.md',
+          ]
+        },
+        {
+          text: '3. 项目组织规范',
+          collapsible: true,
+          children: [
+            '/standardDoc/projectOrg/01.md',
+            '/standardDoc/projectOrg/02.md',
+            '/standardDoc/projectOrg/03.md',
+          ]
+        },
+        {
+          text: '4. 编码规范',
+          collapsible: true,
+          children: [
+            '/standardDoc/codeStyle/01.md',
+            '/standardDoc/codeStyle/02.md',
+            '/standardDoc/codeStyle/03.md',
+            '/standardDoc/codeStyle/04.md',
+            '/standardDoc/codeStyle/05.md',
+            '/standardDoc/codeStyle/06.md',
+            '/standardDoc/codeStyle/07.md',
+            '/standardDoc/codeStyle/08.md',
+          ]
+        },
+        {
+          text: '5. 前后端协作规范',
+          collapsible: true,
+          children: [
+            '/standardDoc/cooperation/01.md',
+            '/standardDoc/cooperation/02.md',
+          ]
+        },
+        {
+          text: '6. 培训/知识管理/技术沉淀',
+          collapsible: true,
+          children: [
+            '/standardDoc/knowledge/01.md',
+            '/standardDoc/knowledge/02.md',
+            '/standardDoc/knowledge/03.md',
+          ]
+        },
       ],
       '/interview': [{
           text: '目录',
