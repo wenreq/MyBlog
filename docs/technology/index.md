@@ -50,6 +50,12 @@ description: 精进技术
 1. [ECMAScript 6 简介](./javaScript/es6/introduction.md)
 2. [let 和 const 命令](./javaScript/es6/01.md)
 3. [变量的解构赋值](./javaScript/es6/02.md)
+4. [字符串的扩展](./javaScript/es6/03.md)
+5. [字符串的新增方法](./javaScript/es6/04.md)
+6. [正则的扩展](./javaScript/es6/05.md)
+7. [数值的扩展](./javaScript/es6/06.md)
+8. [函数的扩展](./javaScript/es6/07.md)
+9. [数组的扩展](./javaScript/es6/08.md)
 
 ## Vue 2
 
