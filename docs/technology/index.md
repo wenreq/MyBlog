@@ -84,7 +84,7 @@ description: 精进技术
   9. [构建优化](./engineering/build/09.md)
 
 ### 专题二：打包体积性能优化
-
+  
   10. [打包体积分析](./engineering/build/10.md)
   11. [JavaScript 压缩](./engineering/build/11.md)
   12. [Tree Shaking](./engineering/build/12.md)
@@ -115,6 +115,7 @@ description: 精进技术
 28. [pnpm 的优势](./engineering/develop/28.md)
 
 ### 专题六：前端质量保障
+
 29. [CICD](./engineering/operation/29.md)
 30. [Git Hooks](./engineering/operation/30.md)
 31. [Audit](./engineering/operation/31.md)
@@ -123,10 +124,11 @@ description: 精进技术
 34. [Package Patch](./engineering/operation/34.md)
 
 ### 专题七：前端服务部署
-35.  [Long Term Cache](./engineering/operation/35.md)
-36.  [Chunk Spliting 与缓存优化](./engineering/operation/36.md)
-37.  [Docker 部署](./engineering/operation/37.md)
-38.  [Docker Preview 部署](./engineering/operation/38.md)
+
+35. [Long Term Cache](./engineering/operation/35.md)
+36. [Chunk Spliting 与缓存优化](./engineering/operation/36.md)
+37. [Docker 部署](./engineering/operation/37.md)
+38. [Docker Preview 部署](./engineering/operation/38.md)
 
 ## HTTP
 
