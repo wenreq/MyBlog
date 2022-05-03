@@ -90,7 +90,11 @@ module.exports = {
       '/milestone/': [{
         text: '2022',
         collapsible: true,
-        children: ['/milestone/2022/03.md', '/milestone/2022/04.md'],
+        children: [
+          '/milestone/2022/03.md', 
+          '/milestone/2022/04.md',
+          '/milestone/2022/05.md'
+        ],
       }],
       '/technology/': [{
           text: 'JavaScript',
