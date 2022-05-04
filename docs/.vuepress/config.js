@@ -274,11 +274,17 @@ module.exports = {
           text: 'Node.js',
           collapsible: true,
           children: [
-            '/technology/node/index.md',
-            '/technology/node/01.md',
-            '/technology/node/02.md',
-            '/technology/node/03.md',
-            '/technology/node/04.md'
+            {
+              text: "内置模块",
+              collapsible: true,
+              children: [
+                '/technology/node/index.md',
+                '/technology/node/01.md',
+                '/technology/node/02.md',
+                '/technology/node/03.md',
+                '/technology/node/04.md'
+              ]
+            }
           ]
         }
       ],
