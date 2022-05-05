@@ -91,7 +91,7 @@ module.exports = {
         text: '2022',
         collapsible: true,
         children: [
-          '/milestone/2022/03.md', 
+          '/milestone/2022/03.md',
           '/milestone/2022/04.md',
           '/milestone/2022/05.md'
         ],
@@ -273,19 +273,17 @@ module.exports = {
         {
           text: 'Node.js',
           collapsible: true,
-          children: [
-            {
-              text: "内置模块",
-              collapsible: true,
-              children: [
-                '/technology/node/index.md',
-                '/technology/node/01.md',
-                '/technology/node/02.md',
-                '/technology/node/03.md',
-                '/technology/node/04.md'
-              ]
-            }
-          ]
+          children: [{
+            text: "内置模块",
+            collapsible: true,
+            children: [
+              '/technology/node/index.md',
+              '/technology/node/01.md',
+              '/technology/node/02.md',
+              '/technology/node/03.md',
+              '/technology/node/04.md'
+            ]
+          }]
         }
       ],
       '/standardDoc/': [{
@@ -378,15 +376,23 @@ module.exports = {
         }, {
           text: 'Git',
           collapsible: true,
-          children: ['/myArticle/git/operate.md', '/myArticle/git/normalize.md', '/myArticle/git/github.md'],
+          children: [
+            '/myArticle/git/operate.md',
+            '/myArticle/git/normalize.md',
+            '/myArticle/git/github.md'
+          ],
         },
         {
           text: 'Web Worker',
           link: '/myArticle/webworker'
         },
         {
-          text: '其他',
-          link: '/myArticle/other'
+          text: '项目',
+          collapsible: true,
+          children: [
+            '/myArticle/project/vue3.md',
+            '/myArticle/project/core.md'
+          ]
         }
       ]
     }
