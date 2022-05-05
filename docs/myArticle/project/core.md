@@ -258,6 +258,23 @@ if (Vue.ls.get(ACCESS_TOKEN)) {
 - `.env`：是生产环境读取的环境变量文件。
 - `.env.development`：是开发环境读取的环境变量文件。
 
+也可以根据不同环境定制文件。如：`.env.test217` 文件。
+
+相应的需要在 `package.json` 文件中配置对应的命令，在 `CI` 过程中注意修改下指令的名称即可。
+
+```json
+// package.json
+"scripts": {
+  "serve": "vue-cli-service serve",
+  "build": "vue-cli-service build",
+  "test217": "vue-cli-service build --mode test217",
+},
+```
+
+* `npm run serve` 命令读取的是 `.env.development` 文件中的环境变量
+* `npm run build` 命令读取的是 `.env` 文件中的环境变量
+* `npm run test217` 命令读取的是 `.env.test217` 文件中的环境变量
+
 ```env
 // .env
 NODE_ENV = 'production'
@@ -270,6 +287,13 @@ VUE_APP_API_BASE_URL='https://xx.ss.com/api'
 NODE_ENV = 'development'
 VUE_APP_FLAG = 'dev'
 VUE_APP_API_BASE_URL='http://127.0.0.1:80/api'
+```
+
+```env
+// .env.test217
+NODE_ENV = 'production'
+VUE_APP_FLAG = 'dev'
+VUE_APP_API_BASE_URL='http://127.0.0.1:8087/api'
 ```
 
 `axios` 中的 `config` 中的 `baseURL` 变量就可以这样根据不同的环境设置了。`process.env` 是全局变量，可以直接访问 `.env` 文件中的变量。
