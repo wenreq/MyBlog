@@ -178,7 +178,28 @@ module.exports = {
         },
         {
           text: 'Vue 3',
-          link: '/technology/vue3/'
+          collapsible: true,
+          children: [{
+            text: 'Vue 3文档',
+            collapsible: true,
+            children: [
+              '/technology/vue3/document/index.md',
+              '/technology/vue3/document/01.md',
+              '/technology/vue3/document/02.md',
+              '/technology/vue3/document/03.md',
+              '/technology/vue3/document/04.md',
+              '/technology/vue3/document/05.md',
+              '/technology/vue3/document/06.md',
+              '/technology/vue3/document/07.md',
+              '/technology/vue3/document/08.md',
+            ]
+          }, {
+            text: 'mini-vue',
+            collapsible: true,
+            children: [
+              '/technology/vue3/miniVue/index.md',
+            ]
+          }]
         },
         {
           text: '前端工程化',
