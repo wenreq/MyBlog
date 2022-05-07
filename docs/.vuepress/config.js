@@ -184,6 +184,13 @@ module.exports = {
             collapsible: true,
             children: [
               '/technology/vue3/document/index.md',
+              {
+                text: '2. 基础',
+                collapsible: true,
+                children: [
+                  '/technology/vue3/document/basic/01.md',
+                ]
+              },
               '/technology/vue3/document/01.md',
               '/technology/vue3/document/02.md',
               '/technology/vue3/document/03.md',
