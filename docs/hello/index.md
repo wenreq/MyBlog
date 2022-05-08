@@ -6,7 +6,7 @@ description: hello-desc
 
 ## Hi 我是温少昌
 
-目前就职于江苏天马网络科技有限公司，函数库[realize-utils](https://github.com/wenreq/realize-utils)作者(不知名的库，厚着脸皮写的哦😂)。坚持学习，精进技术，投身开源。你可以在这里找到我：[github](https://github.com/wenreq)、[个人博客](http://www.wenreq.site/blog/)
+目前就职于江苏天马网络科技有限公司，开源函数库[realize-utils](https://github.com/wenreq/realize-utils)作者(不知名的库，厚着脸皮写的哦😂)。坚持学习，精进技术，投身开源。你可以在这里找到我：[github](https://github.com/wenreq)、[掘金](https://juejin.cn/user/3817127508447896/posts)、[个人博客](http://www.wenreq.site/blog/)
 
 ![](https://visitor-badge.glitch.me/badge?page_id=wenreq.wenreq)
 
