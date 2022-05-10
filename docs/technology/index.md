@@ -61,6 +61,12 @@ description: 精进技术
 
 ## Vue 3
 
+### 文档
+
+1. [开始](./vue3/document/index.md)
+2. [基础](./vue3/document/basic/01.md)
+3. [深入组件](./vue3/document/further/01.md)
+
 ## Css
 
 ## Node
