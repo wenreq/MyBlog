@@ -209,7 +209,10 @@ module.exports = {
                   '/technology/vue3/document/further/01.md',
                   '/technology/vue3/document/further/02.md',
                   '/technology/vue3/document/further/03.md',
-                  '/technology/vue3/document/further/04.md'
+                  '/technology/vue3/document/further/04.md',
+                  '/technology/vue3/document/further/05.md',
+                  '/technology/vue3/document/further/06.md',
+                  '/technology/vue3/document/further/07.md'
                 ]
               }
             ]
