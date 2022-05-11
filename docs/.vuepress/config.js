@@ -202,11 +202,14 @@ module.exports = {
                   '/technology/vue3/document/basic/12.md',
                   '/technology/vue3/document/basic/13.md',
                 ]
-              },{
+              }, {
                 text: '3. 深入组件',
                 collapsible: true,
                 children: [
-                  '/technology/vue3/document/further/01.md'
+                  '/technology/vue3/document/further/01.md',
+                  '/technology/vue3/document/further/02.md',
+                  '/technology/vue3/document/further/03.md',
+                  '/technology/vue3/document/further/04.md'
                 ]
               }
             ]
