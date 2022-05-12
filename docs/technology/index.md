@@ -31,19 +31,19 @@ description: 精进技术
 3. [函数作用域和块作用域](./javaScript/unaware/03.md)
 4. [提升](./javaScript/unaware/04.md)
 5. [作用域闭包](./javaScript/unaware/05.md)
-6. [附A: 动态作用域](./javaScript/unaware/1a.md)
-7. [附B: 块作用域的方案](./javaScript/unaware/1b.md)
-8. [附C: this词法](./javaScript/unaware/1c.md)
+6. [附 A: 动态作用域](./javaScript/unaware/1a.md)
+7. [附 B: 块作用域的方案](./javaScript/unaware/1b.md)
+8. [附 C: this 词法](./javaScript/unaware/1c.md)
 
-#### this和对象原型
+#### this 和对象原型
 
-1. [关于this](./javaScript/unaware/06.md)
-2. [this全面解析](./javaScript/unaware/07.md)
+1. [关于 this](./javaScript/unaware/06.md)
+2. [this 全面解析](./javaScript/unaware/07.md)
 3. [对象](./javaScript/unaware/08.md)
 4. [混合对象-类](./javaScript/unaware/09.md)
 5. [原型](./javaScript/unaware/10.md)
 6. [行为委托](./javaScript/unaware/11.md)
-7. [附A: ES中的Class](./javaScript/unaware/2a.md)
+7. [附 A: ES 中的 Class](./javaScript/unaware/2a.md)
 
 ### ECMAScript 6 入门
 
@@ -66,6 +66,7 @@ description: 精进技术
 1. [开始](./vue3/document/index.md)
 2. [基础](./vue3/document/basic/01.md)
 3. [深入组件](./vue3/document/further/01.md)
+4. [可重用性](./vue3/document/reusing/01.md)
 
 ## Css
 
@@ -79,24 +80,24 @@ description: 精进技术
 ## 前端工程化
 
 ### 专题一：Bundle 基础设施建设
-  
-  1. [模块化方案](./engineering/build/01.md)
-  2. [AST 及其应用](./engineering/build/02.md)
-  3. [原理与运行时](./engineering/build/03.md)
-  4. [运行时 Chunk 加载分析](./engineering/build/04.md)
-  5. [加载非JS资源: JSON与图片](./engineering/build/05.md)
-  6. [加载非JS资源: Style](./engineering/build/06.md)
-  7. [将脚本注入 HTML 的处理](./engineering/build/07.md)
-  8. [Hot Module Reload](./engineering/build/08.md)
-  9. [构建优化](./engineering/build/09.md)
+
+1. [模块化方案](./engineering/build/01.md)
+2. [AST 及其应用](./engineering/build/02.md)
+3. [原理与运行时](./engineering/build/03.md)
+4. [运行时 Chunk 加载分析](./engineering/build/04.md)
+5. [加载非 JS 资源: JSON 与图片](./engineering/build/05.md)
+6. [加载非 JS 资源: Style](./engineering/build/06.md)
+7. [将脚本注入 HTML 的处理](./engineering/build/07.md)
+8. [Hot Module Reload](./engineering/build/08.md)
+9. [构建优化](./engineering/build/09.md)
 
 ### 专题二：打包体积性能优化
-  
-  10. [打包体积分析](./engineering/build/10.md)
-  11. [JavaScript 压缩](./engineering/build/11.md)
-  12. [Tree Shaking](./engineering/build/12.md)
-  13. [Polyfill: core.js](./engineering/build/13.md)
-  14. [browserslist 垫片体积控制](./engineering/build/14.md)
+
+10. [打包体积分析](./engineering/build/10.md)
+11. [JavaScript 压缩](./engineering/build/11.md)
+12. [Tree Shaking](./engineering/build/12.md)
+13. [Polyfill: core.js](./engineering/build/13.md)
+14. [browserslist 垫片体积控制](./engineering/build/14.md)
 
 ### 专题三：Bundless 基础设施建设
 
@@ -113,7 +114,7 @@ description: 精进技术
 22. [script hooks 及其风险](./engineering/develop/22.md)
 23. [npm publish 发布第一个包](./engineering/develop/23.md)
 24. [lockfile 以及影响](./engineering/develop/24.md)
-25. [package 中的lockfile](./engineering/develop/25.md)
+25. [package 中的 lockfile](./engineering/develop/25.md)
 
 ### 专题五：包管理工具
 

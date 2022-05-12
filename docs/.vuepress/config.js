@@ -214,6 +214,14 @@ module.exports = {
                   '/technology/vue3/document/further/06.md',
                   '/technology/vue3/document/further/07.md'
                 ]
+              }, {
+                text: '4. 可重用性',
+                collapsible: true,
+                children: [
+                  '/technology/vue3/document/reusing/01.md',
+                  '/technology/vue3/document/reusing/02.md',
+                  '/technology/vue3/document/reusing/03.md',
+                ]
               }
             ]
           }, {
