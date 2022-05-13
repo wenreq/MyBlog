@@ -222,6 +222,12 @@ module.exports = {
                   '/technology/vue3/document/reusing/02.md',
                   '/technology/vue3/document/reusing/03.md',
                 ]
+              }, {
+                text: '5. 内置模块',
+                collapsible: true,
+                children: [
+                  '/technology/vue3/document/builtIn/01.md'
+                ]
               }
             ]
           }, {
