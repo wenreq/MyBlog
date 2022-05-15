@@ -228,7 +228,17 @@ module.exports = {
                 children: [
                   '/technology/vue3/document/builtIn/01.md',
                   '/technology/vue3/document/builtIn/02.md',
-                  '/technology/vue3/document/builtIn/03.md'
+                  '/technology/vue3/document/builtIn/03.md',
+                  '/technology/vue3/document/builtIn/04.md',
+                  '/technology/vue3/document/builtIn/05.md',
+                ]
+              }, {
+                text: '6. 升级规模',
+                collapsible: true,
+                children: [
+                  '/technology/vue3/document/upgrade/01.md',
+                  '/technology/vue3/document/upgrade/02.md',
+                  '/technology/vue3/document/upgrade/03.md',
                 ]
               }
             ]
