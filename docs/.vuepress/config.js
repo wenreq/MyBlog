@@ -226,7 +226,9 @@ module.exports = {
                 text: '5. 内置模块',
                 collapsible: true,
                 children: [
-                  '/technology/vue3/document/builtIn/01.md'
+                  '/technology/vue3/document/builtIn/01.md',
+                  '/technology/vue3/document/builtIn/02.md',
+                  '/technology/vue3/document/builtIn/03.md'
                 ]
               }
             ]
