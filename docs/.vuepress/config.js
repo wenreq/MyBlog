@@ -239,6 +239,16 @@ module.exports = {
                   '/technology/vue3/document/upgrade/01.md',
                   '/technology/vue3/document/upgrade/02.md',
                   '/technology/vue3/document/upgrade/03.md',
+                  '/technology/vue3/document/upgrade/04.md',
+                  '/technology/vue3/document/upgrade/05.md',
+                ]
+              },
+              {
+                text: '7. 最佳实践',
+                collapsible: true,
+                children: [
+                  '/technology/vue3/document/best/01.md',
+                  '/technology/vue3/document/best/02.md',
                 ]
               }
             ]

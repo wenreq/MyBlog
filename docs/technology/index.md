@@ -68,6 +68,8 @@ description: 精进技术
 3. [深入组件](./vue3/document/further/01.md)
 4. [可重用性](./vue3/document/reusing/01.md)
 5. [内置模块](./vue3/document//builtIn/01.md)
+6. [升级规模](./vue3/document//upgrade/01.md)
+7. [最佳实践](./vue3/document//best/01.md)
 
 ## Css
 
