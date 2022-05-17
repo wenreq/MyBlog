@@ -249,6 +249,14 @@ module.exports = {
                 children: [
                   '/technology/vue3/document/best/01.md',
                   '/technology/vue3/document/best/02.md',
+                  '/technology/vue3/document/best/03.md',
+                ]
+              },
+              {
+                text: '8. TypeScript',
+                collapsible: true,
+                children: [
+                  '/technology/vue3/document/TypeScript/01.md'
                 ]
               }
             ]
