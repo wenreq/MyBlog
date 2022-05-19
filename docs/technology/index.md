@@ -70,7 +70,8 @@ description: 精进技术
 5. [内置模块](./vue3/document/builtIn/01.md)
 6. [升级规模](./vue3/document/upgrade/01.md)
 7. [最佳实践](./vue3/document/best/01.md)
-8. [最佳实践](./vue3/document/TypeScript/01.md)
+8. [TypeScript](./vue3/document/TypeScript/01.md)
+9. [进阶主题](./vue3/document/advance/01.md)
 
 ## Css
 

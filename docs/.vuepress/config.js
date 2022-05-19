@@ -258,6 +258,14 @@ module.exports = {
                 children: [
                   '/technology/vue3/document/TypeScript/01.md'
                 ]
+              },
+              {
+                text: '9. 进阶主题',
+                collapsible: true,
+                children: [
+                  '/technology/vue3/document/advance/01.md',
+                  '/technology/vue3/document/advance/02.md'
+                ]
               }
             ]
           }, {
