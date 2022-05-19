@@ -57,6 +57,12 @@ description: 精进技术
 8. [函数的扩展](./javaScript/es6/07.md)
 9. [数组的扩展](./javaScript/es6/08.md)
 
+## TypeScript
+
+### 拉钩
+
+1. [开篇](./typescript/lagou/01.md)
+
 ## Vue 2
 
 ## Vue 3

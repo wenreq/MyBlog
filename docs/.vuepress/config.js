@@ -170,7 +170,14 @@ module.exports = {
         },
         {
           text: 'Typescript',
-          link: '/technology/typescript/'
+          collapsible: true,
+          children: [{
+            text: '拉钩',
+            collapsible: true,
+            children: [
+              '/technology/typescript/lagou/01.md'
+            ]
+          }]
         },
         {
           text: 'Vue 2',
