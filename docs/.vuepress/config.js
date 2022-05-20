@@ -175,7 +175,20 @@ module.exports = {
             text: '拉钩',
             collapsible: true,
             children: [
-              '/technology/typescript/lagou/01.md'
+              {
+                text: '开篇词',
+                collapsible: true,
+                children: [
+                  '/technology/typescript/lagou/01.md'
+                ]
+              },
+              {
+                text: '模块一：TypeScript 入门',
+                collapsible: true,
+                children: [
+                  '/technology/typescript/lagou/02.md'
+                ]
+              }
             ]
           }]
         },
