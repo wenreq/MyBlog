@@ -61,7 +61,8 @@ description: 精进技术
 
 ### 拉钩
 
-1. [开篇](./typescript/lagou/01.md)
+1. [开篇词](./typescript/lagou/01.md)
+2. [模块一：TypeScript 入门](./typescript/lagou/02.md)
 
 ## Vue 2
 

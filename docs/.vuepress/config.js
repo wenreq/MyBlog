@@ -186,7 +186,10 @@ module.exports = {
                 text: '模块一：TypeScript 入门',
                 collapsible: true,
                 children: [
-                  '/technology/typescript/lagou/02.md'
+                  '/technology/typescript/lagou/02.md',
+                  '/technology/typescript/lagou/03.md',
+                  '/technology/typescript/lagou/04.md',
+                  '/technology/typescript/lagou/05.md'
                 ]
               }
             ]
