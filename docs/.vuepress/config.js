@@ -517,6 +517,13 @@ module.exports = {
             '/myArticle/project/vue3.md',
             '/myArticle/project/core.md'
           ]
+        },
+        {
+          text: '樊登读书',
+          collapsible: true,
+          children: [
+            '/myArticle/fandeng/01.md',
+          ]
         }
       ]
     }
