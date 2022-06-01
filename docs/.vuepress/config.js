@@ -194,7 +194,8 @@ module.exports = {
                   '/technology/typescript/lagou/07.md',
                   '/technology/typescript/lagou/08.md',
                   '/technology/typescript/lagou/09.md',
-                  '/technology/typescript/lagou/10.md'
+                  '/technology/typescript/lagou/10.md',
+                  '/technology/typescript/lagou/11.md'
                 ]
               }
             ]
