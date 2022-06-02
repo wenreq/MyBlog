@@ -63,6 +63,7 @@ description: 精进技术
 
 1. [开篇词](./typescript/lagou/01.md)
 2. [模块一：TypeScript 入门](./typescript/lagou/02.md)
+3. [模块二：TypeScript 进阶](./typescript/lagou/12.md)
 
 ## Vue 2
 

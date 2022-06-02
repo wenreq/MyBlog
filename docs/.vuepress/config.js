@@ -197,7 +197,14 @@ module.exports = {
                   '/technology/typescript/lagou/10.md',
                   '/technology/typescript/lagou/11.md'
                 ]
-              }
+              },
+              {
+                text: '模块二：TypeScript 进阶',
+                collapsible: true,
+                children: [
+                  '/technology/typescript/lagou/12.md'
+                ]
+              },
             ]
           }]
         },
