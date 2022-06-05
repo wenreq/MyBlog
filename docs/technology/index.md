@@ -89,6 +89,8 @@ description: 精进技术
 2. [fs 文件系统模块](./node/02.md)
 3. [path 路径模块](./node/03.md)
 4. [http 模块](./node/04.md)
+5. [模块化和包](./node/05.md)
+6. [express](./node/06.md)
 
 ## 前端工程化
 
