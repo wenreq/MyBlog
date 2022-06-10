@@ -10,8 +10,7 @@ module.exports = {
   themeConfig: {
     logo: 'http://www.wenreq.site/utils/images/gitPicture.jpg',
     // 导航栏
-    navbar: [
-      {
+    navbar: [{
         link: '/',
         text: '主页',
       },
@@ -37,8 +36,7 @@ module.exports = {
       },
       {
         text: '📚电子书籍',
-        children: [
-          {
+        children: [{
             text: 'JavaScript高级程序设计(第四版)',
             link: 'http://www.wenreq.site/utils/PDF/JavaScript高级程序设计(第4版) .pdf',
           },
@@ -112,23 +110,19 @@ module.exports = {
 
     // 侧边栏
     sidebar: {
-      '/milestone/': [
-        {
-          text: '2022',
-          collapsible: true,
-          children: [
-            '/milestone/2022/03.md',
-            '/milestone/2022/04.md',
-            '/milestone/2022/05.md',
-          ],
-        },
-      ],
-      '/technology/': [
-        {
+      '/milestone/': [{
+        text: '2022',
+        collapsible: true,
+        children: [
+          '/milestone/2022/03.md',
+          '/milestone/2022/04.md',
+          '/milestone/2022/05.md',
+        ],
+      }, ],
+      '/technology/': [{
           text: 'JavaScript',
           collapsible: true,
-          children: [
-            {
+          children: [{
               text: 'JS高级程序设计第四版',
               collapsible: true,
               children: [
@@ -151,8 +145,7 @@ module.exports = {
             {
               text: '你不知道的JS-上',
               collapsible: true,
-              children: [
-                {
+              children: [{
                   text: '第一部分 作用域和闭包',
                   collapsible: true,
                   children: [
@@ -201,40 +194,37 @@ module.exports = {
         {
           text: 'Typescript',
           collapsible: true,
-          children: [
-            {
-              text: '拉钩',
-              collapsible: true,
-              children: [
-                {
-                  text: '开篇词',
-                  collapsible: true,
-                  children: ['/technology/typescript/lagou/01.md'],
-                },
-                {
-                  text: '模块一：TypeScript 入门',
-                  collapsible: true,
-                  children: [
-                    '/technology/typescript/lagou/02.md',
-                    '/technology/typescript/lagou/03.md',
-                    '/technology/typescript/lagou/04.md',
-                    '/technology/typescript/lagou/05.md',
-                    '/technology/typescript/lagou/06.md',
-                    '/technology/typescript/lagou/07.md',
-                    '/technology/typescript/lagou/08.md',
-                    '/technology/typescript/lagou/09.md',
-                    '/technology/typescript/lagou/10.md',
-                    '/technology/typescript/lagou/11.md',
-                  ],
-                },
-                {
-                  text: '模块二：TypeScript 进阶',
-                  collapsible: true,
-                  children: ['/technology/typescript/lagou/12.md'],
-                },
-              ],
-            },
-          ],
+          children: [{
+            text: '拉钩',
+            collapsible: true,
+            children: [{
+                text: '开篇词',
+                collapsible: true,
+                children: ['/technology/typescript/lagou/01.md'],
+              },
+              {
+                text: '模块一：TypeScript 入门',
+                collapsible: true,
+                children: [
+                  '/technology/typescript/lagou/02.md',
+                  '/technology/typescript/lagou/03.md',
+                  '/technology/typescript/lagou/04.md',
+                  '/technology/typescript/lagou/05.md',
+                  '/technology/typescript/lagou/06.md',
+                  '/technology/typescript/lagou/07.md',
+                  '/technology/typescript/lagou/08.md',
+                  '/technology/typescript/lagou/09.md',
+                  '/technology/typescript/lagou/10.md',
+                  '/technology/typescript/lagou/11.md',
+                ],
+              },
+              {
+                text: '模块二：TypeScript 进阶',
+                collapsible: true,
+                children: ['/technology/typescript/lagou/12.md'],
+              },
+            ],
+          }, ],
         },
         {
           text: 'Vue 2',
@@ -243,8 +233,7 @@ module.exports = {
         {
           text: 'Vue 3',
           collapsible: true,
-          children: [
-            {
+          children: [{
               text: 'Vue 3文档',
               collapsible: true,
               children: [
@@ -346,12 +335,10 @@ module.exports = {
         {
           text: '前端工程化',
           collapsible: true,
-          children: [
-            {
+          children: [{
               text: '打包篇',
               collapsible: true,
-              children: [
-                {
+              children: [{
                   text: '第一章: Bundle 基础设施建设',
                   collapsible: true,
                   children: [
@@ -391,8 +378,7 @@ module.exports = {
             {
               text: '开发篇',
               collapsible: true,
-              children: [
-                {
+              children: [{
                   text: '第四章: npm package 开发',
                   collapsible: true,
                   children: [
@@ -420,8 +406,7 @@ module.exports = {
             {
               text: '运维篇',
               collapsible: true,
-              children: [
-                {
+              children: [{
                   text: '第六章: 前端质量保障',
                   collapsible: true,
                   children: [
@@ -450,8 +435,7 @@ module.exports = {
         {
           text: 'Node.js',
           collapsible: true,
-          children: [
-            {
+          children: [{
               text: '内置模块',
               collapsible: true,
               children: [
@@ -474,8 +458,7 @@ module.exports = {
           ],
         },
       ],
-      '/standardDoc/': [
-        {
+      '/standardDoc/': [{
           text: '1. 工作流规范',
           collapsible: true,
           children: [
@@ -534,8 +517,7 @@ module.exports = {
           ],
         },
       ],
-      '/interview': [
-        {
+      '/interview': [{
           text: '目录',
           link: '/interview/',
         },
@@ -560,8 +542,7 @@ module.exports = {
           link: '/interview/web/',
         },
       ],
-      '/myArticle': [
-        {
+      '/myArticle': [{
           text: 'MarkDown语法',
           link: '/myArticle/markdown',
         },
@@ -572,6 +553,7 @@ module.exports = {
             '/myArticle/git/operate.md',
             '/myArticle/git/normalize.md',
             '/myArticle/git/github.md',
+            '/myArticle/git/dependabot.md'
           ],
         },
         {
