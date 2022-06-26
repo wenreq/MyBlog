@@ -250,6 +250,7 @@ module.exports = {
                   children: [
                     '/technology/vue2/sourceCode/01.md',
                     '/technology/vue2/sourceCode/02.md',
+                    '/technology/vue2/sourceCode/03.md',
                   ],
                 },
               ],
