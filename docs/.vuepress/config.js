@@ -253,6 +253,7 @@ module.exports = {
                     '/technology/vue2/sourceCode/03.md',
                     '/technology/vue2/sourceCode/04.md',
                     '/technology/vue2/sourceCode/05.md',
+                    '/technology/vue2/sourceCode/06.md',
                   ],
                 },
               ],
