@@ -67,6 +67,17 @@ description: 精进技术
 
 ## Vue 2
 
+### 剖析 Vue.js 内部运行机制
+
+1. [Vue.js 运行机制全局概览](./vue2/sourceCode/01.md)
+2. [响应式系统的基本原理](./vue2/sourceCode/02.md)
+3. [响应式的依赖收集追踪原理](./vue2/sourceCode/03.md)
+4. [实现 Virtual DOM 下的一个 VNode 节点](./vue2/sourceCode/04.md)
+5. [template 模版是怎么通过 Compiler 编译的](./vue2/sourceCode/05.md)
+6. [数据状态更新时的差异 diff 以及 patch 机制](./vue2/sourceCode/06.md)
+7. [批量异步更新策略及 nextTick 原理](./vue2/sourceCode/07.md)
+8. [Vuex 状态管理的工作原理](./vue2/sourceCode/08.md)
+
 ## Vue 3
 
 ### 文档
