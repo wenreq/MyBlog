@@ -614,6 +614,17 @@ module.exports = {
           collapsible: true,
           children: ['/myArticle/fandeng/01.md'],
         },
+        {
+          text: '掘金成长',
+          collapsible: true,
+          children: [{
+            text: '优秀的前端团队是如何炼成的',
+            collapsible: true,
+            children: [
+              '/myArticle/growUp/core/01.md',
+            ],
+          }],
+        },
       ],
     },
   },
