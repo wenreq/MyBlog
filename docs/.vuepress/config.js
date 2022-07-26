@@ -607,6 +607,7 @@ module.exports = {
           children: [
             '/myArticle/project/vue3.md',
             '/myArticle/project/core.md',
+            '/myArticle/project/patch-package.md',
           ],
         },
         {
